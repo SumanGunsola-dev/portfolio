@@ -15,7 +15,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="sm:mt-36 mt-20 flex flex-col  text-white  ">
-                <h1 className=" sm:text-5xl text-3xl text-gradient">Curious about what we can build together? <br /> Let's bring something extraordinary to life!</h1>
+                <h1 className=" sm:text-5xl text-3xl text-gradient">Curious about what we can build together? <br /> Let&apos;s bring something extraordinary to life!</h1>
             </div>
             <div className="mt-20 flex flex-col-reverse sm:flex-row sm:gap-7 gap-3 sm:px-0 px-2 mb-16 sm:mb-20">
                 <a href="/contact">
