@@ -3,7 +3,7 @@ import projects from "../data/projects.json"
 export default function Home() {
   const blurDataURL = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Rio5g="
   return (
-    <main className="flex nata min-h-screen  max-w-screen   flex-col items-center mt-5">
+    <main className="flex nata min-h-screen  w-full   flex-col items-center mt-5">
       <div className="absolute top-0 z-[-2] min-h-full min-w-full bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
 
       <section id="header" className="scroll-mt-32 sm:max-w-2xl px-4   mt-36 flex flex-col gap-6">
@@ -35,14 +35,14 @@ export default function Home() {
 
         </p>
         <p>
-          {`Currently looking for opportunities to work with innovative teams building the next generation of web applications.`}
+          Currently looking for opportunities to work with innovative teams building the next generation of web applications.
         </p>
       </section>
       <section id="services" className="mt-32 scroll-mt-32 max-w-2xl px-4 py-1   flex flex-col gap-12">
         <h2 className="sm:text-4xl text-3xl font-medium ">Services</h2>
         <div className="flex flex-wrap  gap-8 ">
           <div className="  px-4 py-4 w-full shadow-lg shadow-blue-200 rounded-xl flex flex-col gap-3">
-            <h3 className="font-medium text-center text-lg ">Web Devlopment</h3>
+            <h3 className="font-medium text-center text-lg ">Web Development</h3>
             <p>Custom websites and web applications using modern frameworks</p>
           </div>
           <div className="  px-4 py-4 w-full shadow-lg shadow-blue-200 rounded-xl flex flex-col gap-3">
@@ -74,7 +74,7 @@ export default function Home() {
       </section>
       <section id="projects" className="flex scroll-mt-32 font-medium  flex-col items-center max-w-fit sm:p-4 mt-32 gap-14">
 
-        <h2 className="text-2xl sm:text-4xl  text-start font-medium sm:min-w-2xl">{`Here's are my latest Projects`}</h2>
+        <h2 className="text-2xl sm:text-4xl  text-start font-medium sm:min-w-2xl">Here are my latest Projects</h2>
         <div className="flex gap-12 items-center justify-center flex-wrap">
           {projects.map((project, index) => (
             <div key={index} className="sm:max-w-[520px] sm:min-h-[600px] max-w-[375px] min-h-[500px] rounded-md shadow-lg p-4 flex items-center flex-col gap-6">
