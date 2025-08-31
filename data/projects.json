@@ -1,0 +1,27 @@
+[
+    {
+        "title": "FundKrypt – Crowdfunding dApp",
+        "description": "A decentralized crowdfunding platform built with Solidity, Next.js, and TailwindCSS. Users can create campaigns and donate via smart contracts.",
+        "image": "/Images/fundkrypt.png",
+        "link": "https://fundkrypt.online",
+        "github": "https://github.com/SumanGunsola-dev/my-dapp",
+        "techStack": [
+            "Solidity",
+            "Next.js",
+            "TailwindCSS",
+            "Ethers.js",
+            "IPFS"
+        ]
+    },
+    {
+        "title": "Portfolio Website",
+        "description": "Responsive portfolio built with Next.js + Tailwind, featuring clean design and project showcase.",
+        "image": "/Images/portfolio.png",
+        "link": "https://your-portfolio.vercel.app",
+        "github": "https://github.com/SumanGunsola-dev/portfolio",
+        "techStack": [
+            "Next.js",
+            "TailwindCSS"
+        ]
+    }
+]
