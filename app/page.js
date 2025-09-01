@@ -17,7 +17,7 @@ export default function Home() {
             Contact
           </button>
         </a>
-        <a href="/Suman_Gunsola_Resume.pdf" target="_blank" download >
+        <a href="/Suman_Resume.pdf" target="_blank" download >
           <button className="text-[rgb(17_24_38)] px-4 py-2 rounded-md shadow shadow-blue-400">
             Resume
           </button>
