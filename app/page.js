@@ -78,7 +78,7 @@ export default function Home() {
         <h2 className="text-2xl sm:text-4xl  text-start font-medium sm:min-w-2xl">Here are my latest Projects</h2>
         <div className="flex gap-12 items-center justify-center flex-wrap">
           {projects.map((project, index) => (
-            <div key={index} className="sm:max-w-[520px] border sm:min-h-[630px] max-w-[375px] min-h-[500px] rounded-md shadow-lg p-4 flex items-center flex-col gap-6">
+            <div key={index} className="sm:max-w-[520px]  sm:min-h-[630px] max-w-[375px] min-h-[500px] rounded-md shadow-lg p-4 flex items-center flex-col gap-6">
               <div className="sm:w-[500px] w-[360px] h-[220px] sm:h-[320px] rounded-md shadow-lg   relative ">
                 <Image src={project.image} alt=" projectImg" fill className="object-contain" priority={false}
                   placeholder="blur" blurDataURL={blurDataURL}
