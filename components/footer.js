@@ -18,7 +18,7 @@ const Footer = () => {
                 <h1 className=" sm:text-5xl text-3xl text-gradient">Curious about what we can build together? <br /> Let&apos;s bring something extraordinary to life!</h1>
             </div>
             <div className="mt-20 flex flex-col-reverse sm:flex-row sm:gap-7 gap-3 sm:px-0 px-2 mb-16 sm:mb-20">
-                <a href="/contact">
+                <a href="/contact" target="_blank" rel="noopener noreferrer">
                     <button className="bg-white w-fit text-black px-5 py-3.5  font-medium text-lg">
                         Get In Touch
                     </button>

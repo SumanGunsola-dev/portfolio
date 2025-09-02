@@ -1,5 +1,6 @@
 import Image from "next/image";
 import projects from "../data/projects.json"
+import Link from "next/link";
 export default function Home() {
   const blurDataURL = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Rio5g="
   return (
@@ -12,11 +13,11 @@ export default function Home() {
         <p className="font-medium text-lg">{`I'm a web developer passionate about building modern web applications and decentralized apps (dApps). I love solving problems, exploring new technologies, and turning ideas into real-world projects.`}</p>
       </section>
       <section id="resume" className="flex scroll-mt-32 items-center sm:px-4 justify-between mt-20  sm:max-w-2xl sm:min-w-[650px] min-w-[350px] font-medium ">
-        <a href="/contact">
+        <Link href="/contact">
           <button className="bg-[rgb(17_24_38)] text-white px-4 py-2 rounded-md ">
             Contact
           </button>
-        </a>
+        </Link>
         <a href="/Suman_Resume.pdf" target="_blank" download >
           <button className="text-[rgb(17_24_38)] px-4 py-2 rounded-md shadow shadow-blue-400">
             Resume
@@ -93,7 +94,8 @@ export default function Home() {
                 </div>
                 <div className="flex  gap-5 flex-row ">
 
-                  <a href={project.link}>
+                  {project.link && <a href={project.link} target="_blank"
+                    rel="noopener noreferrer">
                     <div className="text-xs sm:text-base items-center flex font-bold ">
                       <span>visit</span>
                       <span className="relative w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6">
@@ -106,8 +108,9 @@ export default function Home() {
                           20px" alt="visit logo" />
                       </span>
                     </div>
-                  </a>
-                  <a href={project.github}>
+                  </a>}
+                  <a href={project.github} target="_blank"
+                    rel="noopener noreferrer">
                     <div className="text-xs items-center flex font-bold  ">
 
                       <span className="relative w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"><Image src="/github.svg"

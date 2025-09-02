@@ -4,7 +4,7 @@
         "description": "A decentralized crowdfunding platform built with Solidity, Next.js, and TailwindCSS. Users can create campaigns and donate via smart contracts.",
         "image": "/Images/fundkrypt.png",
         "link": "https://fundkrypt.online",
-        "github": "https://github.com/SumanGunsola-dev/my-dapp",
+        "github": "https://github.com/SumanGunsola-dev/CrowdfundingDApp",
         "techStack": [
             "Solidity",
             "Next.js",
@@ -14,14 +14,15 @@
         ]
     },
     {
-        "title": "Portfolio Website",
-        "description": "Responsive portfolio built with Next.js + Tailwind, featuring clean design and project showcase.",
-        "image": "/Images/portfolio.png",
-        "link": "https://your-portfolio.vercel.app",
-        "github": "https://github.com/SumanGunsola-dev/portfolio",
+        "title": "Raffle Contract",
+        "description": "A decentralized raffle system built with Solidity and Foundry. It leverages Chainlink VRF v2 for provably fair randomness and Chainlink Automation to manage upkeep. Includes full deployment and subscription management scripts for Sepolia and local Anvil testing.",
+        "image": "/Images/raffle.png",
+        "github": "https://github.com/SumanGunsola-dev/Foundry-Lottory",
         "techStack": [
-            "Next.js",
-            "TailwindCSS"
+            "Solidity",
+            "Foundry",
+            "Chainlink VRF",
+            "Chainlink Automation"
         ]
     }
 ]
